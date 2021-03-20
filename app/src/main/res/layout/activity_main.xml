@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="50dp"
+       android:textColor="#1b1b1b"
+       android:text="Biodata"
+       android:background="#a6767c"
+       android:id="@+id/screen1.tv1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Name:"
+        android:textColor="#1b1b1b"
+        android:id="@+id/screen1.et1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:textColor="#1b1b1b"
+            android:layout_weight="1"
+            android:id="@+id/screen1.et2"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DOB"
+            android:textColor="#1b1b1b"
+            android:id="@+id/screen.et3"
+            />
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="College name:"
+        android:textColor="#1b1b1b"
+        android:id="@+id/screen1.et4"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1b1b1b"
+        android:hint="Subject:"
+        android:id="@+id/screen.et5"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#a6767c"
+        android:textColor="#1b1b1b"
+        android:text="press here"
+        android:id="@+id/screen1.b1"
+        />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
